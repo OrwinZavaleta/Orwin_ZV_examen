@@ -1,0 +1,30 @@
+# bootstrap
+# Archivos y carpetas de macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# Archivos y carpetas de Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Archivos y carpetas de Linux
+*.swp
+*~
+.cache/
+*.bak
+*.tmp
+
+# Logs generales
+*.log
+
+# Carpetas y archivos de algunos editores comunes
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
