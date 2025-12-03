@@ -1359,4 +1359,24 @@ ul[class*=nav_] li {
 .ten.columns {
   width: 100%;
   margin: 0;
+}
+
+.btn-red {
+  background-color: red;
+}
+
+.btn-blue {
+  background-color: blue;
+}
+
+.btn-green {
+  background-color: green;
+}
+
+.btn-purple {
+  background-color: purple;
+}
+
+.btn-grey {
+  background-color: grey;
 }/*# sourceMappingURL=mis_estilos.css.map */
