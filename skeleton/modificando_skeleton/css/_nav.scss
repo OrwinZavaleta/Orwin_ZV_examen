@@ -1,0 +1,29 @@
+ul[class*="nav_"] {
+    // ul {
+    display: flex;
+    gap: 0.75rem;
+
+    &.nav_horizontal {
+        flex-direction: row;
+    }
+
+    &.nav_horizontal_reverse {
+        flex-direction: row-reverse;
+    }
+
+    &.nav_vertical {
+        flex-direction: column;
+    }
+
+    &.nav_vertical_reverse {
+        flex-direction: column-reverse;
+    }
+
+    li {
+        display: block;
+        border: 1px black solid;
+        padding: 1rem;
+        font: bold 1.2rem Arial, sans-serif;
+        border-radius: 1rem;
+    }
+}
