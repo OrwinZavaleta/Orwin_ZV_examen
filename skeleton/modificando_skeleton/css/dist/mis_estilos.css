@@ -1503,3 +1503,69 @@ ul[class*=nav_] li {
   width: 100%;
   margin: 0;
 }
+
+.btn-red {
+  background-color: red;
+}
+
+.btn-blue {
+  background-color: blue;
+}
+
+.btn-green {
+  background-color: green;
+}
+
+.btn-purple {
+  background-color: purple;
+}
+
+.btn-grey {
+  background-color: grey;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.gallery.one {
+  width: 99%;
+  margin: 0;
+}
+.gallery.two {
+  width: 48%;
+  margin: 0;
+}
+.gallery.three {
+  width: 30.3333333333%;
+  margin: 0;
+}
+.gallery.four {
+  width: 21%;
+  margin: 0;
+}
+.gallery.five {
+  width: 15%;
+  margin: 0;
+}
+.gallery.six {
+  width: 10.6666666667%;
+  margin: 0;
+}
+.gallery.seven {
+  width: 7.2857142857%;
+  margin: 0;
+}
+.gallery.eight {
+  width: 4.5%;
+  margin: 0;
+}
+.gallery.nine {
+  width: 2.1111111111%;
+  margin: 0;
+}
+.gallery.ten {
+  width: 0%;
+  margin: 0;
+}

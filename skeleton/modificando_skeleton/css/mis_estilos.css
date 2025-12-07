@@ -1379,4 +1379,50 @@ ul[class*=nav_] li {
 
 .btn-grey {
   background-color: grey;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.gallery.one img {
+  width: 100%;
+  margin: 0;
+}
+.gallery.two img {
+  width: 49%;
+  margin: 0;
+}
+.gallery.three img {
+  width: 31.3333333333%;
+  margin: 0;
+}
+.gallery.four img {
+  width: 22%;
+  margin: 0;
+}
+.gallery.five img {
+  width: 16%;
+  margin: 0;
+}
+.gallery.six img {
+  width: 11.6666666667%;
+  margin: 0;
+}
+.gallery.seven img {
+  width: 8.2857142857%;
+  margin: 0;
+}
+.gallery.eight img {
+  width: 5.5%;
+  margin: 0;
+}
+.gallery.nine img {
+  width: 3.1111111111%;
+  margin: 0;
+}
+.gallery.ten img {
+  width: 1%;
+  margin: 0;
 }/*# sourceMappingURL=mis_estilos.css.map */
