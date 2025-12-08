@@ -1,0 +1,63 @@
+.col-1 {
+  max-width: calc(100% / (13 - $val));
+  flex: 0 0 calc(100% / (13 - $val));
+}
+
+.col-2 {
+  max-width: calc(100% / (13 - $val));
+  flex: 0 0 calc(100% / (13 - $val));
+}
+
+.col-3 {
+  max-width: calc(100% / (13 - $val));
+  flex: 0 0 calc(100% / (13 - $val));
+}
+
+.col-4 {
+  max-width: calc(100% / (13 - $val));
+  flex: 0 0 calc(100% / (13 - $val));
+}
+
+.col-5 {
+  max-width: calc(100% / (13 - $val));
+  flex: 0 0 calc(100% / (13 - $val));
+}
+
+.col-6 {
+  max-width: calc(100% / (13 - $val));
+  flex: 0 0 calc(100% / (13 - $val));
+}
+
+.col-7 {
+  max-width: calc(100% / (13 - $val));
+  flex: 0 0 calc(100% / (13 - $val));
+}
+
+.col-8 {
+  max-width: calc(100% / (13 - $val));
+  flex: 0 0 calc(100% / (13 - $val));
+}
+
+.col-9 {
+  max-width: calc(100% / (13 - $val));
+  flex: 0 0 calc(100% / (13 - $val));
+}
+
+.col-10 {
+  max-width: calc(100% / (13 - $val));
+  flex: 0 0 calc(100% / (13 - $val));
+}
+
+.col-11 {
+  max-width: calc(100% / (13 - $val));
+  flex: 0 0 calc(100% / (13 - $val));
+}
+
+.col-12 {
+  max-width: calc(100% / (13 - $val));
+  flex: 0 0 calc(100% / (13 - $val));
+}
+
+.column {
+  border: 1px black solid;
+}

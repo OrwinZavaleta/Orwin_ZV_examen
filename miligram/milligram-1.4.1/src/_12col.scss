@@ -1,0 +1,21 @@
+@each $val in 1,
+2,
+3,
+4,
+5,
+6,
+7,
+8,
+9,
+10,
+11,
+12 {
+    .col-#{$val} {
+        max-width: calc(100% / (13 - $val));
+        flex: 0 0 calc(100% / (13 - $val));
+    }
+}
+
+.column{
+    border: 1px black solid;
+}
