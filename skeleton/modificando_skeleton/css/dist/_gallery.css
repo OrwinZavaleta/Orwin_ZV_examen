@@ -1,45 +1,105 @@
 .gallery {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.5rem;
+  gap: 0.5%;
 }
-.gallery.one img {
+.gallery.one div {
+  width: 99.5%;
+  aspect-ratio: 1/1;
+  margin: 0;
+}
+.gallery.one div img {
+  object-fit: cover;
   width: 100%;
+  height: 100%;
+}
+.gallery.two div {
+  width: 49.5%;
+  aspect-ratio: 1/1;
   margin: 0;
 }
-.gallery.two img {
-  width: 49%;
+.gallery.two div img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.gallery.three div {
+  width: 32.8333333333%;
+  aspect-ratio: 1/1;
   margin: 0;
 }
-.gallery.three img {
-  width: 31.3333333333%;
+.gallery.three div img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.gallery.four div {
+  width: 24.5%;
+  aspect-ratio: 1/1;
   margin: 0;
 }
-.gallery.four img {
-  width: 22%;
+.gallery.four div img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.gallery.five div {
+  width: 19.5%;
+  aspect-ratio: 1/1;
   margin: 0;
 }
-.gallery.five img {
-  width: 16%;
+.gallery.five div img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.gallery.six div {
+  width: 16.1666666667%;
+  aspect-ratio: 1/1;
   margin: 0;
 }
-.gallery.six img {
-  width: 11.6666666667%;
+.gallery.six div img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.gallery.seven div {
+  width: 13.7857142857%;
+  aspect-ratio: 1/1;
   margin: 0;
 }
-.gallery.seven img {
-  width: 8.2857142857%;
+.gallery.seven div img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.gallery.eight div {
+  width: 12%;
+  aspect-ratio: 1/1;
   margin: 0;
 }
-.gallery.eight img {
-  width: 5.5%;
+.gallery.eight div img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.gallery.nine div {
+  width: 10.6111111111%;
+  aspect-ratio: 1/1;
   margin: 0;
 }
-.gallery.nine img {
-  width: 3.1111111111%;
+.gallery.nine div img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.gallery.ten div {
+  width: 9.5%;
+  aspect-ratio: 1/1;
   margin: 0;
 }
-.gallery.ten img {
-  width: 1%;
-  margin: 0;
+.gallery.ten div img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
 }
