@@ -1,0 +1,8 @@
+.estrellas{
+    display: flex;
+    flex-direction: column-reverse;
+
+    &>*{
+        font-size: 2rem;
+    }
+}

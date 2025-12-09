@@ -1,3 +1,5 @@
+@use "mixins";
+
 @each $val in 1,
 2,
 3,
@@ -11,11 +13,32 @@
 11,
 12 {
     .col-#{$val} {
-        max-width: calc(100% / (13 - $val));
-        flex: 0 0 calc(100% / (13 - $val));
+        max-width: calc((100% / 12) * $val) !important;
+        flex: 0 0 calc((100% / 12) * $val) !important;
     }
 }
 
-.column{
-    border: 1px black solid;
+.row {
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 0;
+
+    .column {
+        border: 1px black solid;
+    }
+}
+
+/* Larger than mobile screen */
+@media (min-width: 500px) {
+    @include mixins.generarColumns("sm");
+}
+
+/* Larger than tablet screen */
+@media (min-width: 800px) {
+    @include mixins.generarColumns("md");
+}
+
+/* Larger than desktop screen */
+@media (min-width: 1000px) {
+    @include mixins.generarColumns("lg");
 }
