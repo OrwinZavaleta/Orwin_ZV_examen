@@ -1,0 +1,5 @@
+@mixin desparecerColumn($nCol) {
+    .row.dis-col-#{$nCol} {
+        
+    }
+}

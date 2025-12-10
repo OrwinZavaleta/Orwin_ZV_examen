@@ -1,4 +1,15 @@
-.row-col{
+.row-col {
     display: flex;
     flex-direction: column;
+}
+
+.row-4-8 {
+    &>*:first-child {
+        width: calc((100%/12) *4);
+    }
+
+    &>*:nth-child(2) {
+        width: calc((100%/12) *8);
+        margin: 0;
+    }
 }
