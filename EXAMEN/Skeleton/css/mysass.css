@@ -9,4 +9,18 @@
 .row-4-8 > *:nth-child(2) {
   width: 66.6666666667%;
   margin: 0;
+}
+
+@media (min-width: 992px) {
+  .row.desa-md-2 > *:nth-child(2) {
+    display: none;
+  }
+}
+@media (min-width: 1200px) {
+  .row.desa-lg-2 > *:nth-child(2) {
+    display: none;
+  }
+}
+.row.desa-2 > *:nth-child(2) {
+  display: none;
 }/*# sourceMappingURL=mysass.css.map */

@@ -10,3 +10,14 @@
   width: calc((100%/12) *8);
   margin: 0;
 }
+
+@media (min-width: 992px) {
+  .row.desa-tam-2 > *:nth-child(2) {
+    display: none;
+  }
+}
+@media (min-width: 1200px) {
+  .row.desa-tam-2 > *:nth-child(2) {
+    display: none;
+  }
+}
