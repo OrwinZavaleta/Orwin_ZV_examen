@@ -1,0 +1,58 @@
+.rounded {
+  border-radius: 1.5rem;
+  padding: 1rem;
+}
+
+.card {
+  padding: 3.5rem;
+  text-align: center;
+}
+
+.estrellitas {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.container {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.row-no-wrap {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  border-bottom: 1px black solid;
+}
+.navbar .brand > * {
+  display: inline-block;
+  margin: 0;
+}
+.navbar .haburgesa {
+  display: block;
+}
+@media (min-width: 992px) {
+  .navbar .haburgesa {
+    display: none;
+  }
+}
+.navbar .menu {
+  display: none;
+}
+.navbar .menu li {
+  display: inline-block;
+  padding: 1rem;
+}
+@media (min-width: 992px) {
+  .navbar .menu {
+    display: block;
+  }
+}
+.navbar .menu ul {
+  margin: 0;
+}

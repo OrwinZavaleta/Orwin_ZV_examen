@@ -1,0 +1,61 @@
+.rounded {
+    border-radius: 1.5rem;
+    padding: 1rem;
+}
+
+.card {
+    padding: 3.5rem;
+    text-align: center;
+}
+
+.estrellitas {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.container {
+    width: 75%;
+    margin: 0 auto;
+}
+.row-no-wrap{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    border-bottom: 1px black solid;
+
+    .brand {
+        &>* {
+            display: inline-block;
+            margin: 0;
+        }
+    }
+
+    .haburgesa {
+        display: block;
+
+        @media (min-width: 992px) {
+            display: none;
+        }
+    }
+
+    .menu {
+        display: none;
+
+        li {
+            display: inline-block;
+            padding: 1rem;
+        }
+
+        @media (min-width: 992px) {
+            display: block;
+        }
+        ul{
+            margin: 0;
+        }
+    }
+}
